@@ -1,1 +1,1 @@
-Vendor config for Samsung Galaxy J5 (SM-J500FN. SM-J500F)
+Vendor config for Samsung Galaxy J5 SINGLE-SIM (SM-J500FN. SM-J500F)
