@@ -19,26 +19,5 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(BOARD_VENDOR),samsung)
 ifneq ($(filter j5nltexx,$(TARGET_DEVICE)),)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := NfcNci
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/NfcNci/NfcNci.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Tag
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/priv-app/Tag/Tag.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
 endif
 endif
