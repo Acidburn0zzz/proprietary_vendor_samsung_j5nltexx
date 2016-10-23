@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
   vendor/samsung/j5nltexx/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-  vendor/samsung/j5nltexx/proprietary/lib/hw/nfc_nci.MSM8916.so:system/lib/hw/nfc_nci.MSM8916.so \
+  vendor/samsung/j5nltexx/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
   vendor/samsung/j5nltexx/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
   vendor/samsung/j5nltexx/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
   vendor/samsung/j5nltexx/proprietary/bin/rild:system/bin/rild \
