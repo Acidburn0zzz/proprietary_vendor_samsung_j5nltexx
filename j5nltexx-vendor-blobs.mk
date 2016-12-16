@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5nltexx/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/samsung/j5nltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j5nltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/j5nltexx/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/j5nltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j5nltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j5nltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
